@@ -23,6 +23,16 @@ int main()
 
    int board[number_of_cells_horizontally][number_of_cells_vertically] = {0};
    board[3][4] = 65;
+   int accessibility[number_of_cells_horizontally][number_of_cells_vertically] =
+   {2, 3, 4, 4, 4, 4, 3, 2,
+    3, 4, 6, 6, 6, 6, 4, 3,
+    4, 6, 8, 8, 8, 8, 6, 4,
+    4, 6, 8, 8, 8, 8, 6, 4,
+    4, 6, 8, 8, 8, 8, 6, 4,
+    4, 6, 8, 8, 8, 8, 6, 4,
+    3, 4, 6, 6, 6, 6, 4, 3,
+    2, 3, 4, 4, 4, 4, 3, 2
+   };
    int gorizontal[] = {2, 1, -1, -2, -2, -1, 1, 2};
    int vertical[] = {-1, -2, -2, -1, 1, 2, 2, 1};
 
